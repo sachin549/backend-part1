@@ -1,0 +1,50 @@
+*{
+   margin: 0%;
+   padding: 0%;
+   box-sizing: border-box;
+}
+
+main{
+    height: 100vh;
+    display: grid;
+     place-items: center;
+    background-color:rgb(246, 217, 214);
+}
+
+form{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    gap:2rem;
+    max-width: 200%;
+    height:70%;
+    margin: 4rem;
+    padding:8rem 4rem;
+    justify-content: center;
+    
+    place-items: center;
+
+}
+input{
+    padding: 1rem;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+button{
+    background-color: rgb(131, 131, 248);
+    color: white;
+    padding: .75rem;
+    border-radius: 5px;
+
+}
+h1{
+    justify-content: center;
+    margin: 10% 20%;
+}
+.error{
+    color: red;
+    font-size: 0.7rem;
+    text-align: right;
+    margin: 1rem;
+    background-color: blanchedalmond;
+}
